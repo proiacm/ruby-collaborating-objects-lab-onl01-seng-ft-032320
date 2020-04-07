@@ -29,6 +29,6 @@ class Artist
   end
   
   def print_songs
-    puts @@all
+    puts Song.all
   end
 end
