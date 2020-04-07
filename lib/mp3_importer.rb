@@ -6,7 +6,7 @@ class Mp3Importer
   end
   
   def files 
-    music_array - []
+    music_array = []
     
       Dir.new(self.path).each do |file| music_array << file if file.length > 4
     end
