@@ -29,9 +29,9 @@ class Artist
   end
   
   def print_songs
-   songs_list = []
-   songs = Song.all.select {|s| s == @name}
-   songs_list << songs
-   print songs
+   #songs_list = []
+   songs = Song.all.map {|s| s == @name}
+   #songs_list << songs
+   #print songs
   end
 end
