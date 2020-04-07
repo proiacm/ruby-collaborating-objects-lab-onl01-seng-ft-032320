@@ -29,7 +29,7 @@ class Artist
   end
   
   def print_songs
-   songs = song.name
+   songs = songs.name
    print songs
   end
 end
