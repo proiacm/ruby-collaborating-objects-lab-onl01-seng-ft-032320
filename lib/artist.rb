@@ -29,7 +29,7 @@ class Artist
   end
   
   def print_songs
-   songs = Song.all.select {|song| song.name}
-   puts songs
+   songs_list = Song.all.select {|song| song.name}
+   puts songs_list
   end
 end
