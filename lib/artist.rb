@@ -29,9 +29,7 @@ class Artist
   end
   
   def print_songs
-   #songs_list = []
-   songs = Song.all.select {|s| s == @name}
-   #songs_list << songs
+   self.songs.each {|song| song.name}
    print songs
   end
 end
