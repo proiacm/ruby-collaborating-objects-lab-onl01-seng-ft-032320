@@ -32,6 +32,6 @@ class Artist
    #songs_list = []
    songs = Song.all.map {|s| s == @name}
    #songs_list << songs
-   #print songs
+   print songs
   end
 end
