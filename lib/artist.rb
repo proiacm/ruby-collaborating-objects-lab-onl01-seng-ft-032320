@@ -29,8 +29,9 @@ class Artist
   end
   
   def print_songs
-    songs = []
+   songs = []
    songs = Song.all.select {|s| s == @name}
+   songs << songs
    print songs
   end
 end
